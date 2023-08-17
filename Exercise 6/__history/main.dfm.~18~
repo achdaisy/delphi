@@ -1,0 +1,132 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Caption = 'fMain'
+  ClientHeight = 446
+  ClientWidth = 633
+  Color = clSilver
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object SpeedButton1: TSpeedButton
+    Left = 384
+    Top = 303
+    Width = 194
+    Height = 57
+    Caption = 'Customers'
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 384
+    Top = 366
+    Width = 194
+    Height = 58
+    Caption = 'Products'
+  end
+  object Label1: TLabel
+    Left = 32
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'FORMS'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 248
+    Top = 64
+    Width = 96
+    Height = 25
+    Caption = 'QUERIES'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 633
+    Height = 41
+    Align = alTop
+    Caption = 'MAIN MENU'
+    ParentBackground = False
+    TabOrder = 0
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 427
+    Width = 633
+    Height = 19
+    Panels = <>
+  end
+  object RadioButton1: TRadioButton
+    Left = 32
+    Top = 104
+    Width = 113
+    Height = 17
+    Caption = 'Customers'
+    TabOrder = 2
+    OnClick = RadioButton1Click
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Top = 176
+    Width = 113
+    Height = 17
+    Caption = 'Products'
+    TabOrder = 3
+    OnClick = RadioButton2Click
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Top = 240
+    Width = 113
+    Height = 17
+    Caption = 'Sales'
+    TabOrder = 4
+    OnClick = RadioButton3Click
+  end
+  object RadioButton4: TRadioButton
+    Left = 248
+    Top = 104
+    Width = 113
+    Height = 17
+    Caption = 'Joins Query'
+    TabOrder = 5
+    OnClick = RadioButton4Click
+  end
+  object MainMenu1: TMainMenu
+    Left = 312
+    Top = 232
+    object FormsTables1: TMenuItem
+      Caption = 'Forms/Tables'
+      object Customers1: TMenuItem
+        Caption = 'Customers'
+      end
+      object Products1: TMenuItem
+        Caption = 'Products'
+      end
+      object Sales1: TMenuItem
+        Caption = 'Sales'
+      end
+    end
+    object Queries1: TMenuItem
+      Caption = 'Queries'
+      object JoinsQuery1: TMenuItem
+        Caption = 'Joins Query'
+      end
+    end
+  end
+end

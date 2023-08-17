@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 421
+  ClientWidth = 917
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 8
+    Width = 913
+    Height = 377
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Users\User\Desktop\Exercise 6\myDatabase.mdb'
+      'DriverID=MSAcc')
+    Connected = True
+    LoginPrompt = False
+    Left = 616
+    Top = 64
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT Sales.*, '#10'Customers.Name as '#39'Customer_Name'#39','
+      ' '#10'Products.Product_name as '#39'Product_Name'#39
+      #10'FROM (Sales '#10
+      'LEFT JOIN Customers '
+      #10'ON Sales.Customer_Code = Customers.Code)'#10
+      'LEFT JOIN Products '
+      #10'ON Sales.Product_Code=Products.Product_code')
+    Left = 728
+    Top = 32
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 696
+    Top = 144
+  end
+end

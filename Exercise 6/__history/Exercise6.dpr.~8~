@@ -1,0 +1,20 @@
+program Exercise6;
+
+uses
+  Vcl.Forms,
+  customers in 'customers.pas' {frCustomers},
+  main in 'main.pas' {Form2},
+  products in 'products.pas' {frProducts},
+  Sales in 'Sales.pas' {frSales};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TfrCustomers, frCustomers);
+  Application.CreateForm(TfrProducts, frProducts);
+  Application.CreateForm(TfrSales, frSales);
+  Application.Run;
+end.

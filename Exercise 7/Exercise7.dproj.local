@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/21 10:12:56.000.469,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/23 12:12:12.000.351,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 12:10:58.000.718,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 12:11:45.000.531,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\User\Desktop\Exercise 7\main.dfm</Transaction>
+    <Transaction>2023/02/27 12:11:45.000.531,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\User\Desktop\Exercise 7\main.pas</Transaction>
+    <Transaction>2023/02/27 12:11:58.000.029,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\User\Desktop\Exercise 7\Exercise7.dproj</Transaction>
+    <Transaction>2023/02/27 12:12:28.000.530,=C:\Users\User\Desktop\Exercise 7\Unit2.pas</Transaction>
+    <Transaction>2023/02/27 12:12:52.000.993,C:\Users\User\Desktop\Exercise 7\Unit2.dfm=C:\Users\User\Desktop\Exercise 7\customers.dfm</Transaction>
+    <Transaction>2023/02/27 12:12:52.000.993,C:\Users\User\Desktop\Exercise 7\Unit2.pas=C:\Users\User\Desktop\Exercise 7\customers.pas</Transaction>
+    <Transaction>2023/02/27 12:13:20.000.474,=C:\Users\User\Desktop\Exercise 7\Unit3.pas</Transaction>
+    <Transaction>2023/02/27 12:13:36.000.485,C:\Users\User\Desktop\Exercise 7\Unit3.pas=C:\Users\User\Desktop\Exercise 7\Products.pas</Transaction>
+    <Transaction>2023/02/27 12:13:36.000.485,C:\Users\User\Desktop\Exercise 7\Unit3.dfm=C:\Users\User\Desktop\Exercise 7\Products.dfm</Transaction>
+    <Transaction>2023/02/27 12:57:29.000.135,=C:\Users\User\Desktop\Exercise 7\Unit2.pas</Transaction>
+    <Transaction>2023/02/27 13:12:57.000.693,C:\Users\User\Desktop\Exercise 7\Unit2.dfm=C:\Users\User\Desktop\Exercise 7\Sales.dfm</Transaction>
+    <Transaction>2023/02/27 13:12:57.000.693,C:\Users\User\Desktop\Exercise 7\Unit2.pas=C:\Users\User\Desktop\Exercise 7\Sales.pas</Transaction>
+    <Transaction>2023/02/27 14:40:08.000.497,=C:\Users\User\Desktop\Exercise 7\Unit3.pas</Transaction>
+    <Transaction>2023/02/27 14:42:37.000.044,C:\Users\User\Desktop\Exercise 7\Unit3.dfm=C:\Users\User\Desktop\Exercise 7\joinsQuery.dfm</Transaction>
+    <Transaction>2023/02/27 14:42:37.000.044,C:\Users\User\Desktop\Exercise 7\Unit3.pas=C:\Users\User\Desktop\Exercise 7\joinsQuery.pas</Transaction>
+  </Transactions>
+</BorlandProject>

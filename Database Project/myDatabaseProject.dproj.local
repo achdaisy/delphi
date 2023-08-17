@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/21 10:12:56.000.469,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/22 11:32:56.000.429,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/22 11:34:13.000.450,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\User\Desktop\Database Project\main.dfm</Transaction>
+    <Transaction>2023/02/22 11:34:13.000.450,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\User\Desktop\Database Project\main.pas</Transaction>
+    <Transaction>2023/02/22 11:35:01.000.488,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\User\Desktop\Database Project\myDatabaseProject.dproj</Transaction>
+    <Transaction>2023/02/22 11:37:52.000.289,=C:\Users\User\Desktop\Database Project\Unit2.pas</Transaction>
+    <Transaction>2023/02/22 11:38:28.000.252,C:\Users\User\Desktop\Database Project\Unit2.pas=C:\Users\User\Desktop\Database Project\Products.pas</Transaction>
+    <Transaction>2023/02/22 11:38:28.000.252,C:\Users\User\Desktop\Database Project\Unit2.dfm=C:\Users\User\Desktop\Database Project\Products.dfm</Transaction>
+    <Transaction>2023/02/22 11:56:32.000.194,=C:\Users\User\Desktop\Database Project\Unit3.pas</Transaction>
+    <Transaction>2023/02/22 11:56:56.000.217,C:\Users\User\Desktop\Database Project\Unit3.pas=C:\Users\User\Desktop\Database Project\Customers.pas</Transaction>
+    <Transaction>2023/02/22 11:56:56.000.217,C:\Users\User\Desktop\Database Project\Unit3.dfm=C:\Users\User\Desktop\Database Project\Customers.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

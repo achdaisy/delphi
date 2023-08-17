@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 370
+  ClientWidth = 686
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBEdit1: TDBEdit
+    Left = 88
+    Top = 32
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 88
+    Top = 72
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 88
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 88
+    Top = 152
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 88
+    Top = 192
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'CREATE TABLE Sales('
+      'Sales_code INT,'
+      'Customer_code INT,'
+      'Product_code INT,'
+      'Date_of_Purchase DATE,'
+      'Quantity INT'
+      ')')
+    Left = 552
+    Top = 8
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Users\User\Desktop\Exercise 6\myDatabase.mdb'
+      'DriverID=MSAcc')
+    Connected = True
+    LoginPrompt = False
+    Left = 648
+    Top = 16
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 640
+    Top = 96
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    Left = 552
+    Top = 88
+  end
+end
