@@ -1,2 +1,2 @@
 # Delphi
-This folder contains my delphi projects and exercises. Its basically a recording of my journey
+This repository contains some delphi projects and exercises.
